@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #87ceeb;
+    padding: 10px;
+    text-align: center;
+    transition:1s;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition:1s;
+}
+nav:hover> :not(:hover) {
+   color:#87ceeb;
+}
+
+    
+
+main {
+    padding: 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+}
+.section h2 {
+    color: #4682b4;
+}
+.section p {
+    text-align: justify;
+}
+footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
